@@ -1,25 +1,25 @@
 // Get the modal
-var modal = document.getElementById("form");
+var formModal = document.getElementById("form-modal");
 
 // Get the button that opens the modal
-var btn = document.getElementById("open-form");
+var openBtn = document.getElementById("open-form");
 
 // Get the <span> element that closes the modal
-var closeModal = document.getElementsByClassName("close-modal")[0];
+var closeBtn= document.getElementsByClassName("close-modal")[0];
 
 // When the user clicks on the button, open the modal 
-btn.onclick = function () {
-    modal.style.display = "block";
+openBtn.onclick = function () {
+    formModal.style.display = "block";
 }
 
 // When the user clicks on <span> (x), close the modal
-closeModal.onclick = function () {
-    modal.style.display = "none";
+closeBtn.onclick = function () {
+    formModal.style.display = "none";
 }
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function (event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
+    if (event.target == formModal) {
+        formModal.style.display = "none";
     }
 }

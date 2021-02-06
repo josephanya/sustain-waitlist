@@ -43,11 +43,15 @@ p{
 }
 
 .socials{
-    margin-bottom: 25px;
+    margin: 0 auto 25px auto;
 }
 
 .social-icon{
     margin: 0px 5px;
+}
+
+.small-text{
+    font-size: 12px;
 }
 
 .semibold a:link {
@@ -274,7 +278,7 @@ footer p a:active {
 }
 
 /* The Modal (background) */
-.modal {
+.form-modal {
     display: none; 
     position: fixed; 
     z-index: 1; 
