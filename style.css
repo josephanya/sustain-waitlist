@@ -50,8 +50,13 @@ p{
     margin: 0px 5px;
 }
 
-.small-text{
+.modal-small-text{
     font-size: 12px;
+}
+
+.modal-text{
+    font-size: 18px;
+    margin-bottom: 30px;
 }
 
 .semibold a:link {

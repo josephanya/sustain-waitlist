@@ -1,7 +1,4 @@
-// Get the modal
 var formModal = document.getElementById("form-modal");
-
-// Get the button that opens the modal
 var openBtn = document.getElementById("open-form");
 
 // Get the <span> element that closes the modal
