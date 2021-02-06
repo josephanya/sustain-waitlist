@@ -1,0 +1,275 @@
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('./fonts/ProximaNovaA-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('./fonts/ProximaNovaA-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+body{
+    color: #476D85;
+    font-family: 'Proxima Nova', sans-serif;
+}
+
+.logo{
+    margin-bottom: 60px;
+    width: 110px;
+}
+
+h1{
+    font-size: 34px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: #003459;
+}
+
+p{
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 30px;
+}
+
+.socials{
+    margin-bottom: 25px;
+}
+
+.social-icon{
+    margin: 0px 5px;
+}
+
+.semibold a:link {
+    color: #1DA1F2;
+}
+
+.header{
+    padding: 45px 3% 10px 3%;
+}
+
+.body{
+    padding: 55px 3% 30px 3%;
+}
+
+.mockup{
+    width: 240px;
+}
+
+.form-input{
+    height: 3.125rem;
+    padding: 0 13px;
+    font-size: .85rem;
+    color: #888888;
+    font-family: inherit;
+    background-color: #FFFFFF;
+    border: .5px solid #CCD5DC;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 18px;
+    width: 100%;
+}
+
+.form-select-option{
+    height: 3.125rem;
+    padding: 0 9px;
+    font-size: .85rem;
+    color: #888888;
+    font-family: inherit;
+    background-color: #FFFFFF;
+    border: .5px solid #CCD5DC;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 18px;
+    width: 100%;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #888888;
+    opacity: 1; /* Firefox */
+}
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #888888;
+}
+  
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #888888;
+}
+
+.book-button {
+    width: 160px;
+    margin-top: 5px;
+    margin-bottom: 55px;
+    background-color: #1DA1F2;
+    border: none;
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    height: 3.125rem;
+}
+
+a:link {
+    color: #0F2D5A;
+}
+
+footer{
+    width: 80%;
+    margin: 15px auto;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 0px;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+footer p a:link {
+    color: #476D85;
+}
+
+footer p a:visited {
+    color: #476D85;
+}
+
+footer p a:hover {
+    color: #476D85;
+}
+
+footer p a:active {
+    color: #476D85;
+}
+
+@media screen and (min-width: 576px) {
+    .logo{
+        margin-bottom: 900px;
+        width: 115px;
+    }
+
+    .header{
+        padding: 45px 4% 10px 4%;
+    }
+
+    .body{
+        padding: 60px 4% 45px 4%;
+    }
+
+    h1{
+        font-size: 40px;
+        font-weight: 700;
+        margin-bottom: 25px;
+        color: #003459;
+    }
+
+    p{
+        font-size: 18px;
+        line-height: 30px;
+        margin-bottom: 30px;
+    }
+
+    .mockup{
+        width: 250px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .logo{
+        margin-bottom: 100px;
+        width: 120px;
+    }
+
+    .header{
+        padding: 45px 10% 10px 10%;
+    }
+
+    .body{
+        padding: 70px 10% 45px 10%;
+    }
+
+    h1{
+        font-size: 42px;
+        font-weight: 700;
+        margin-bottom: 25px;
+        color: #003459;
+    }
+
+    p{
+        font-size: 19px;
+        line-height: 30px;
+        margin-bottom: 30px;
+    }
+
+    .mockup{
+        width: 265px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .logo{
+        margin-bottom: 110px;
+        width: 125px;
+    }
+
+    .header{
+        padding: 45px 18% 10px 18%;
+    }
+
+    .body{
+        padding: 70px 18% 45px 18%;
+    }
+
+    h1{
+        font-size: 48px;
+        font-weight: 700;
+        margin-bottom: 25px;
+        color: #003459;
+    }
+
+    p{
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 30px;
+    }
+
+    .mockup{
+        width: 285px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .logo{
+        margin-bottom: 120px;
+        width: 132px;
+    }
+
+    .header{
+        padding: 45px 24% 10px 24%;
+    }
+
+    .body{
+        padding: 70px 20% 45px 20%;
+    }
+
+    h1{
+        font-size: 52px;
+        font-weight: 700;
+        margin-bottom: 25px;
+        color: #003459;
+    }
+
+    p{
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 30px;
+    }
+
+    .mockup{
+        width: 300px;
+    }
+}
