@@ -1,3 +1,3 @@
 ## sustain-waitlist
 
-A waitlist for prospective patients/users
+A waitlist landing page and form for prospective patients/users
